@@ -8,8 +8,8 @@ import Faq from "./pages/faq";
 function App() {
   return (
     <BrowserRouter>
-      <Link to="/Teste">Home</Link>
-      <Link to="/Faq">FAQ</Link>
+      {/* <Link to="/Teste">Home</Link>
+      <Link to="/Faq">FAQ</Link> */}
 
       <Routes>
         <Route exact path="/Teste"  element={<Home />} />
