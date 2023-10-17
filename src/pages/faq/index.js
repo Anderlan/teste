@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom'
 const Faq = () => {
     return (
         <div>
-           <Link to='/Faq'>FAQ</Link>
+            <Link to='teste'>Home</Link>
+            <Link to='Faq'>FAQ</Link>
         </div>
     );
 }
