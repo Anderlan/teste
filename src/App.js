@@ -12,8 +12,8 @@ function App() {
       <Link to="/Faq">FAQ</Link>
 
       <Routes>
-        <Route path="Teste"  element={<Home />} />
-        <Route path="Faq" element={<Faq />} />
+        <Route path="/Teste"  element={<Home />} />
+        <Route path="/Faq" element={<Faq />} />
       </Routes>
     </BrowserRouter>
   );
