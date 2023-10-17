@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 const Faq = () => {
     return (
         <div>
-            FAQ
+           <Link to='/Faq'>FAQ</Link>
         </div>
     );
 }
