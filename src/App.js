@@ -12,9 +12,11 @@ function App() {
       <Link to="/Faq">FAQ</Link> */}
 
       <Routes>
-        <Route exact path="/Teste"  element={<Home />} />
+        <Route exact path="/"  element={<Home />} />
         <Route path="/Faq" element={<Faq />} />
       </Routes>
+      <Link to="/Faq">FAQ</Link>
+      
     </BrowserRouter>
   );
 }
